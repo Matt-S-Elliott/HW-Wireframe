@@ -19,25 +19,32 @@ footer {
 aside,
 section {
     float: left;
-    width: 45%;
-    margin-left: 10px;
+    width: 470px;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
-aside{
-    height: 100px;
+aside {
+    margin-left: 10px;
+}
+section {
+    margin-right: 10px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    width: 100%;
+    width: 450px;
     margin: 10px;
+    padding-bottom: 10px;
 }
 
 h1,
 p {
     color: #777;
     background: #ebebeb;
+    margin: 10px;
+    width: 430px;
 }
 
 footer {
@@ -47,5 +54,5 @@ footer {
 .wideBar {
     width: 100%;
     height: 75px;
-    margin: 10px;
+    margin: 10px 0px;
 }
