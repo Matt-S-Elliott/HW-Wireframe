@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18;
+    text-align: center;
+    margin: auto;
+}
+
+header, 
+nav, 
+section, 
+aside, 
+footer {
+    background: #ebebeb;
+}
+
+aside,
+section {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+}
+
+aside{
+    height: 100px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    width: 100%;
+    margin: 10px;
+}
+
+h1,
+p {
+    color: #777;
+    background: #ebebeb;
+}
+
+footer {
+    clear: both;
+}
+
+.wideBar {
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+}
