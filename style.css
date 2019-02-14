@@ -14,28 +14,31 @@ section,
 aside, 
 footer {
     background: #ebebeb;
+    padding-top: 35px;
 }
 
 aside,
 section {
     float: left;
-    width: 470px;
-    height: 150px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
 aside {
     margin-left: 10px;
+    width: 445px;
 }
 section {
     margin-right: 10px;
+    width: 495px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
     width: 450px;
-    margin: 10px;
+    margin: 20px auto;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -45,6 +48,7 @@ p {
     background: #ebebeb;
     margin: 10px;
     width: 430px;
+    padding: 10px 0px;
 }
 
 footer {
